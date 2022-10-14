@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils-edge": "^3.0.0-rc.12-27759910.9e6d292",
+    "@types/bcrypt": "^5.0.0",
+    "bcrypt": "^5.1.0",
+    "nuxt": "3.0.0-rc.11",
+    "vitest": "^0.24.1"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.0.96",
+    "@pinia/nuxt": "^0.4.3",
+    "sass": "^1.55.0",
+    "vuetify": "^3.0.0-beta.13"
+  }
+}
